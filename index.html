@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/releases/v6.4.0/css/all.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="shortcut icon" href="assets/img/scatteredclouds.png" type="image/x-icon">
+  <title>ClimaNow</title>
+</head>
+
+<body>
+  <div class="wheathercont">
+    <div class="weather_header">
+      <form class="weather_search">
+        <input type="text" placeholder="" class="weather_searchform" spellcheck="false">
+        <i class="fa-regular fa-magnifying-glass"></i>
+      </form>
+      <div class="error">
+        <p>Invalid city name</p>
+      </div>
+      <div class="weather_units">
+        <span class="weather_unit_celsius">&#176C</span>
+        <span class="weather_unit_farenheit">&#176F</span>
+      </div>
+    </div>
+
+    <div class="weather_body">
+      <div class="weather_img">
+        <img src="assets/img/clearsky.png" class="weather-icon" alt="">
+      </div>
+      <div class="weather_city">
+        <h1>City Name</h1>
+      </div>
+      <p class="weather_temp">0&#176</p>
+    </div>
+
+    <div class="weather_info">
+      <div class="weather_card">
+        <i class="fa-light fa-temperature-empty"></i>
+        <div>
+          <p class="info_dfdfd">Real Feel</p>
+          <p class="weather_realfeel">0&#176</p>
+        </div>
+      </div>
+
+      <div class="weather_card">
+        <i class="fa-light fa-droplet"></i>
+        <div>
+          <p class="info_title">Humidity</p>
+          <p class="weather_humidity">0%</p>
+        </div>
+      </div>
+
+      <div class="weather_card">
+        <i class="fa-light fa-wind"></i>
+        <div>
+          <p class="info_title">Wind</p>
+          <p class="weather_wind">0m/s</p>
+        </div>
+      </div>
+
+      <div class="weather_card">
+        <i class="fa-light fa-gauge"></i>
+        <div>
+          <p class="info_title">Pressure</p>
+          <p class="weather_pressure">0hPa</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="assets/js/main.js">
+  </script>
+</body>
+
+</html>
